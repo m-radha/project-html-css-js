@@ -1,0 +1,364 @@
+body {
+  margin: 0%;
+  padding: 0%;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav a {
+  text-decoration: none;
+  font-weight: bold;
+  margin-right: 20px;
+  color: #002677;
+}
+
+.nav img {
+  padding: 20px 40px 0px 20px;
+}
+
+.first {
+  list-style-type: none;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.nav ul {
+  display: flex;
+}
+
+.button-1 {
+  width: 150px;
+  height: 50px;
+  border-radius: 20px;
+  border: 2px solid #002677;
+  margin-right: 20px;
+  color: #002677;
+  text-align: center;
+  font-weight: 900;
+}
+
+#sign-in {
+  text-decoration: none;
+  color: white;
+}
+
+#find-doc {
+  text-decoration: none;
+  color: #002677;
+}
+
+.button-2 {
+  width: 145px;
+  height: 50px;
+  border-radius: 20px;
+  border: 2px solid #002677;
+  margin-right: 20px;
+  background-color: #002677;
+  color: white;
+  font-weight: 900;
+}
+
+.icon {
+  border-radius: 20px;
+  width: 250px;
+  padding-left: 25px;
+  background: url("https://static.thenounproject.com/png/101791-200.png") no-repeat right;
+  background-size: 40px;
+}
+
+.nav img {
+  width: 50px;
+  height: 60px;
+}
+
+.nav img {
+  margin-right: 40px;
+}
+
+input {
+  width: 300px;
+  border: 2px solid #002677;
+}
+
+header a {
+  margin-right: 50px;
+  margin-left: 20px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header {
+  background-color: #002677;
+  ;
+  margin-top: 40px;
+  padding: 20px 40px;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: tomato;
+  margin-bottom: 0px;
+}
+
+.top-left {
+  position: absolute;
+  border: 5px solid white;
+  color: #002677;
+  background-color: white;
+  text-align: left;
+  top: 50px;
+  margin-left: 30px;
+  width: 232px;
+  padding: 10px 20px 10px 20px;
+  height: 246px;
+}
+
+.top-left button {
+  border: 2px solid #002677;
+  font-weight: 900;
+  background-color: #002677;
+  color: white;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+  padding: 5px 10px 5px 10px;
+}
+
+.top-left a {
+  text-decoration: none;
+}
+
+.question {
+  background-color: #e7f8fa;
+  display: inline-block;
+  margin-top: 0%;
+}
+
+.question img {
+  width: 15%;
+  float: left;
+}
+
+.question button {
+  border-radius: 20px;
+}
+
+.que-content button {
+  border-radius: 20px;
+  padding: 10px 10px;
+  margin-left: 0;
+  border: 2px solid #002677;
+  color: #002677;
+  font-weight: 900;
+}
+
+.content-1 img {
+  height: 10%;
+  width: 10%;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.column {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.plans {
+  display: inline-block;
+  margin-left: 2%;
+  margin-top: 5%;
+}
+
+.align {
+  text-align: left;
+}
+
+.content-1 {
+  display: grid;
+  height: auto;
+  grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+  /* align-items justify-items */
+  place-items: center start;
+  place-items: center;
+  text-align: center;
+  float: left;
+}
+
+#leftbox {
+  float: left;
+  width: 75%;
+  height: 400px;
+}
+
+
+h1 {
+  color: #002677;
+  ;
+}
+
+#rightbox {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  float: right;
+  width: 25%;
+  height: 450px;
+  background-color: #f4f4f4;
+}
+
+#rightbox img {
+  width: 100%;
+  height: 50%;
+  margin-bottom: 0%;
+}
+
+#rightbox p,
+button {
+  margin-left: 20px;
+}
+
+.f-para {
+  font-size: 20px;
+  color: #002677;
+}
+
+
+#rightbox button {
+  border-radius: 20px;
+  color: #002677;
+  border: 2px solid #002677;
+  font-weight: 900;
+  padding: 5px 5px 5px 5px;
+}
+
+.register {
+  background-color: #f4f4f4;
+  height: 250px;
+  margin-top: 10px;
+}
+
+.member {
+  padding: 20px;
+}
+
+.member h2 {
+  color: #002677;
+}
+
+.register img {
+  width: 10%;
+  float: left;
+  margin-right: 25%;
+  margin-top: 25px;
+  margin-left: 60px;
+}
+
+.register button {
+  border-radius: 20px;
+  height: 50px;
+  text-align: center;
+  color: #002677;
+  color: #002677;
+  border: 2px solid #002677;
+  font-weight: 900;
+}
+
+.new-1 {
+  display: flex;
+  margin-left: 30px;
+}
+
+.new h1 {
+  text-align: center;
+}
+
+.new img {
+  height: 30%;
+  width: 20%;
+  text-align: center;
+}
+
+.new-button {
+  border-radius: 20px;
+  color: #002677;
+  border: 2px solid #002677;
+  font-weight: 900;
+  padding: 5px 5px 5px 5px;
+}
+
+.stethoscope {
+  height: 250px;
+  background-color: #e7f8fa;
+}
+
+.s-con {
+  float: right;
+  margin-right: 30%;
+}
+
+.stethoscope img {
+  width: 10%;
+  float: left;
+  margin: 20px 10px 20px 20px;
+}
+
+.footer img {
+  height: 5%;
+  width: 5%;
+}
+
+.footer {
+  width: 100vw;
+  height: 50vh;
+  display: grid;
+  grid-template-areas:
+    'h1 para image'
+  ;
+  background-color: #002677;
+  ;
+  grid-template-columns: 1fr 3fr 1fr;
+  text-align: center;
+  color: white;
+  margin: 0%;
+}
+
+.para {
+  display: grid;
+  grid-template-areas: 'para para para';
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: left;
+}
+
+.para {
+  grid-area: para;
+}
+
+.footer h1 {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  font-size: 100%;
+  font-weight: 600;
+  color: #3366CC;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button:hover {
+  background-color: #196ecf;
+  ;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+}
