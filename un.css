@@ -11,7 +11,7 @@ body {
 .nav a {
   text-decoration: none;
   font-weight: bold;
-  margin-right: 20px;
+  margin-right: 5px;
   color: #002677;
 }
 
@@ -362,3 +362,5 @@ button:hover {
 ul {
   list-style-type: none;
 }
+
+

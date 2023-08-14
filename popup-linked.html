@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popup Example</title>
+</head>
+<body>
+    <a href="#" id="popupLink">Sign-in</a>
+
+    <script>
+        document.getElementById("popupLink").addEventListener("click", function(event) {
+            event.preventDefault(); // Prevent the default behavior of the link
+            openPopup(event.target);
+        });
+
+        function openPopup(anchor) {
+            var anchorRect = anchor.getBoundingClientRect();
+            var popupTop = anchorRect.bottom + window.scrollY;
+
+            var popupWindow = window.open("popup.html", "Popup Window", "width=400,height=300,top=" + popupTop);
+        }
+    </script>
+</body>
+</html>

@@ -12,17 +12,17 @@
 </head>
 
 <body>
-    <div>
+    <div class="div1">
         <nav>
             <div class="nav">
                 <img src="https://blog.logomyway.com/wp-content/uploads/2022/05/united-health-care-symbol.jpg"
                     alt="UN-healthcare">
                 <ul>
-                    <li class="first"><a href="Insurance_plan.html" target="_blank">Insurance Plans</a></li>
+                    <li class="first"> <a href="Insurance_plan.html" target="_blank">Insurance plans</a></li>
                     <li class="first"><a href="Member_resource.html" target="_blank">Member Resurces</a></li>
                     <li class="first"><a href="others_site.html" target="_blank">Other sites</a></li>
                     <button class="button-1"><a href="find-a-doctor.html" id="find-doc">find a doctor</a></button>
-                    <button class="button-2"><a href="sign-in-form.html" id="sign-in">sign-in</a></button>
+                    <button class="button-2"><a href="#" id="popupLink" style="color: white;" >Sign-in</a></button>
                     <input type="text" placeholder="search..." name="search" class="icon">
                 </ul>
             </div>
@@ -39,7 +39,7 @@
             <div class="top-left">
                 <h1>Find health insurance plans for the whole family</h1>
                 <button>find your plan</button><br>
-                <a href="#">Get help to find a plan</a>
+                <a href="#">Get help to find a plan <i class='fa fa-arrow-right'></i></a>
             </div>
         </div>
         <div class="question">
@@ -47,7 +47,8 @@
             <div class="que-content">
                 <h1>Have questions about Medicaid renewal? We’re here to help.</h1>
                 <p>If you’ve been asked to renew your Medicaid plan, you may have questions about what to do next.
-                    We’re here to help you check your Medicaid status and explore other coverage options if you need a new
+                    We’re here to help you check your Medicaid status and explore other coverage options if you need a
+                    new
                     plan.
                 </p>
                 <button>Leran about medical renewal and coverage option?</button>
@@ -61,7 +62,8 @@
                         <img src="https://p7.hiclipart.com/preview/431/903/622/dietary-supplement-health-heart-cardiovascular-disease-health-png-photos.jpg"
                             alt="stethscope">
                         <ul>
-                            <li class="align"><a href="#">Health insurance plan <i class='fa fa-arrow-right'></i></a></li>
+                            <li class="align"><a href="#">Health insurance plan <i class='fa fa-arrow-right'></i></a>
+                            </li>
                             <p class="align">Plans that offer savings for employers, while supporting employee health.
                             </p>
                         </ul>
@@ -96,7 +98,8 @@
                     <div class="column">
                         <img src="https://thumb.ac-illust.com/a0/a0fcc751f1457945909b5dc1cdfd173f_w.jpeg" alt="clock">
                         <ul>
-                            <li class="align"><a href="#">short term insurance <i class='fa fa-arrow-right'></i></a></li>
+                            <li class="align"><a href="#">short term insurance <i class='fa fa-arrow-right'></i></a>
+                            </li>
                             <p class="align">Temporary health plans that fit almost any lifestyle or budget.</p>
                         </ul>
                     </div>
@@ -143,7 +146,7 @@
                     <h3>How to choose a mental health provider</h3>
                     <p>Learn about the different types of mental health providers, and how to choose one that may offer
                         the type of support and care you need.</p>
-                        <button class="new-button">Get help choosing a mental health provider</button>
+                    <button class="new-button">Get help choosing a mental health provider</button>
                 </div>
                 <div class="virtual-visit">
                     <img src="https://endeavor.moffitt.org/media/13151/phone-virtual-visit-1440.jpg?crop=0.082473254057385731,0.065639463653689084,0.45667503526106418,0.0086867002450311866&cropmode=percentage&width=375&height=340&rnd=133312319690000000"
@@ -151,7 +154,7 @@
                     <h3>Get care anywhere with virtual visits</h3>
                     <p>Virtual visits let you get convenient care on your schedule. Talk to a provider using your
                         smartphone, tablet or computer — from home, work or anywhere.</p>
-                        <button class="new-button">Learn more about virtual visits</buttton>
+                    <button class="new-button">Learn more about virtual visits</buttton>
                 </div>
             </div>
         </div>
@@ -165,8 +168,7 @@
                 </ul>
             </div>
             <div class="s-img">
-                <img src="heart-ste.png"
-                    alt="stethoscope">
+                <img src="heart-ste.png" alt="stethoscope">
             </div>
         </div>
         <div class="footer">
@@ -199,6 +201,18 @@
             </div>
         </div>
     </div>
-</body>
+    
+    <a href="#" id="popupLink">Sign-in</a>
 
+    <script>
+        document.getElementById("popupLink").addEventListener("click", function(event) {
+            event.preventDefault(); // Prevent the default behavior of the link
+            openPopup();
+        });
+
+        function openPopup() {
+            var popupWindow = window.open("sign-in-links.html", "Popup Window", "width=400,height=300,top=200,left=100");
+        }
+    </script>
+</body>
 </html>
